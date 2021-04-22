@@ -20,20 +20,20 @@ This package makes it easy to send notifications using [TeletopiaSMS](https://ww
 
 ```
 'teletopiasms' => [
-    'user' => env('SERVICES_SMS_USER'),
-    'password' => env('SERVICES_SMS_PASSWORD'),
+    'user' => env('SERVICES_TELETOPIASMS_USER'),
+    'password' => env('SERVICES_TELETOPIASMS_PASSWORD'),
     'url' => '', // api url
     'sender' => '', // sender name
-    'whitelist' => array_filter(array_map('trim', explode(',', env('SERVICES_WHITELIST_SMS', '')))),
+    'whitelist' => array_filter(array_map('trim', explode(',', env('SERVICES_TELETOPIASMS_WHITELIST', '')))),
 ],
 ```
 
 - Add credentials to the `.env` file
 
 ```
-SERVICES_SMS_USER='' // username
-SERVICES_SMS_PASSWORD='' // password
-SERVICES_WHITELIST_SMS='' // comma separated list of phones which could get sms on local/beta
+SERVICES_TELETOPIASMS_USER='' // username
+SERVICES_TELETOPIASMS_PASSWORD='' // password
+SERVICES_TELETOPIASMS_WHITELIST='' // comma separated list of phones which could get sms on local/beta
 ```
 
 ## Usage
