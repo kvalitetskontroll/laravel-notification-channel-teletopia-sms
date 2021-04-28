@@ -1,7 +1,7 @@
 {
-    "name": "kvalitetskontroll/teletopia-sms",
+    "name": "kvalitetskontroll/laravel-notification-channel-teletopia-sms",
     "description": "TeletopiaSMS Notification Channel For Laravel",
-    "homepage": "https://github.com/kvalitetskontroll/teletopia-sms",
+    "homepage": "https://github.com/kvalitetskontroll/laravel-notification-channel-teletopia-sms",
     "license": "MIT",
     "authors": [
         {
